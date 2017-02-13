@@ -31,3 +31,6 @@ dependencies {
 5.0
 
 ![](https://github.com/AriesHoo/RadiusView/blob/master/screenshot/01.png)
+
+####三、鸣谢 
+1、[FlycoRoundView](https://github.com/H07000223/FlycoRoundView)
