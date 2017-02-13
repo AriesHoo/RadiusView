@@ -23,6 +23,7 @@ public class RadiusEditText extends EditText {
     public RadiusEditText(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         delegate = new RadiusViewDelegate(this, context, attrs);
+        setFocusableInTouchMode(true);
     }
 
     /**
