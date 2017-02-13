@@ -59,6 +59,27 @@
         <attr name="rv_rippleEnable"/>
     </declare-styleable>
 
+    <declare-styleable name="RadiusEditText">
+        <attr name="rv_backgroundColor"/>
+        <attr name="rv_backgroundPressedColor"/>
+        <attr name="rv_backgroundEnabledColor"/>
+        <attr name="rv_radius"/>
+        <attr name="rv_strokeWidth"/>
+        <attr name="rv_strokeColor"/>
+        <attr name="rv_strokePressedColor"/>
+        <attr name="rv_strokeEnabledColor"/>
+        <attr name="rv_textColor"/>
+        <attr name="rv_textPressedColor"/>
+        <attr name="rv_textEnabledColor"/>
+        <attr name="rv_radiusHalfHeightEnable"/>
+        <attr name="rv_widthHeightEqualEnable"/>
+        <attr name="rv_topLeftRadius"/>
+        <attr name="rv_topRightRadius"/>
+        <attr name="rv_bottomLeftRadius"/>
+        <attr name="rv_bottomRightRadius"/>
+        <attr name="rv_rippleEnable"/>
+    </declare-styleable>
+
     <declare-styleable name="RadiusLinearLayout">
         <attr name="rv_backgroundColor"/>
         <attr name="rv_backgroundPressedColor"/>

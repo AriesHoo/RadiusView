@@ -11,6 +11,7 @@ import android.graphics.drawable.StateListDrawable;
 import android.os.Build;
 import android.util.AttributeSet;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.TextView;
 
 /**
@@ -70,7 +71,6 @@ public class RadiusViewDelegate {
         bottomLeftRadius = ta.getDimensionPixelSize(R.styleable.RadiusTextView_rv_bottomLeftRadius, 0);
         bottomRightRadius = ta.getDimensionPixelSize(R.styleable.RadiusTextView_rv_bottomRightRadius, 0);
         isRippleEnable = ta.getBoolean(R.styleable.RadiusTextView_rv_rippleEnable, true);
-
         ta.recycle();
     }
 
@@ -274,7 +274,7 @@ public class RadiusViewDelegate {
             }
         }
 
-        if (view instanceof TextView) {
+        if (view instanceof TextView || view instanceof EditText) {
             TextView textView = (TextView) view;
             if (textPressedColor != Integer.MAX_VALUE) {
                 textColor = (textColor == Integer.MAX_VALUE ? textView.getTextColors().getDefaultColor() : textColor);

@@ -81,6 +81,26 @@
             rv:rv_textColor="#03A9F4"
             rv:rv_textPressedColor="#ffffff"/>
 
+        <com.aries.ui.view.radius.RadiusEditText
+            android:id="@+id/ret_radius"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:hint="RadiusEditText"
+            android:paddingBottom="10dp"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp"
+            android:paddingTop="10dp"
+            android:textColor="#03A9F4"
+            android:textCursorDrawable="@null"
+            rv:rv_backgroundColor="@android:color/white"
+            rv:rv_radius="10dp"
+            rv:rv_strokeColor="#03A9F4"
+            rv:rv_strokeWidth="1dp"/>
+
         <com.aries.ui.view.radius.RadiusTextView
             android:id="@+id/rtv_radius"
             android:layout_width="wrap_content"
@@ -95,6 +115,7 @@
             android:paddingTop="10dp"
             android:text="RadiusTextView"
             rv:rv_backgroundColor="#F6CE59"
+            rv:rv_backgroundPressedColor="#F6C"
             rv:rv_radius="10dp"
             rv:rv_textColor="#383838"/>
 
@@ -130,6 +151,7 @@
                 android:text="topRightRadius"
                 android:textColor="#ffffff"
                 rv:rv_backgroundColor="#F08A5D"
+                rv:rv_backgroundPressedColor="#F08A4D"
                 rv:rv_rippleEnable="true"
                 rv:rv_topRightRadius="10dp"/>
         </LinearLayout>
