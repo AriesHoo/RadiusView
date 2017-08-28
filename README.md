@@ -5,6 +5,8 @@
 一个用于需要圆角矩形框背景的TextView或Layout的情况,减少直接使用时引入的shape资源文件，包括RadiusTextView，RadiusEditText,RadiusLinearLayout，RadiusRelativeLayout,RadiusLinearLayout
 该库为[FlycoRoundView](https://github.com/H07000223/FlycoRoundView)扩展,主要增加不可点击状态属性并修改部分属性命名方式，使用方式参照layout_main.
 
+## 说明1.1.0以后版本UIWidget维护，不再做版本更新
+
 更全常见UI库参看 [UIWidget](https://github.com/AriesHoo/UIWidget)
 
 [[Sample PC Download]](https://github.com/AriesHoo/RadiusView/blob/master/apk/sample.apk)
