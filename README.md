@@ -1,9 +1,8 @@
 # RadiusView
 --------------------------
-### 一、简介：
+## 简介：
 
-一个用于需要圆角矩形框背景的TextView或Layout的情况,减少直接使用时引入的shape资源文件，包括RadiusTextView，RadiusEditText,RadiusLinearLayout，RadiusRelativeLayout,RadiusFrameLayout,RadiusCheckBox，RadiusRadioButton
-该库为[FlycoRoundView](https://github.com/H07000223/FlycoRoundView)扩展,主要增加不可点击状态属性并修改部分属性命名方式，使用方式参照layout_main.
+一个用于需要圆角矩形框背景的TextView或Layout的情况,减少直接使用时引入的shape资源文件，包括RadiusTextView，RadiusEditText,RadiusLinearLayout，RadiusRelativeLayout,RadiusFrameLayout,RadiusCheckBox，RadiusRadioButton,主要有圆角控制、默认背景(边框线)、按下背景(边框线)、不可点击背景(边框线)、选择selected背景(边框线)、选中checked背景(边框线);全圆角、四角单独设置圆角功能，使用方式参照layout_main.
 
 ## 说明1.1.0以后版本UIWidget维护，不再做版本更新
 
@@ -15,7 +14,7 @@
 
 ![](https://github.com/AriesHoo/UIWidget/blob/master/apk/qr.png)
 
-**1.1 Gradle集成**
+**Gradle集成**
 
 ```
 allprojects {
@@ -33,6 +32,11 @@ dependencies {
 }
 ```
 
-### 二、录屏预览
+## 录屏预览
 
 ![](https://github.com/AriesHoo/RadiusView/blob/master/screenshot/00.gif)
+
+## 明细
+
+[FlycoRoundView](https://github.com/H07000223/FlycoRoundView)
+
