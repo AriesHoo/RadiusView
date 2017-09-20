@@ -36,7 +36,7 @@ dependencies {
 
 ![](https://github.com/AriesHoo/RadiusView/blob/master/screenshot/00.gif)
 
-## 明细
+## 鸣谢
 
 [FlycoRoundView](https://github.com/H07000223/FlycoRoundView)
 
