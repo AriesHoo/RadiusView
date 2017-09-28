@@ -4,7 +4,7 @@
 
 一个用于需要圆角矩形框背景的TextView或Layout的情况,减少直接使用时引入的shape资源文件，包括RadiusTextView，RadiusEditText,RadiusLinearLayout，RadiusRelativeLayout,RadiusFrameLayout,RadiusCheckBox，RadiusRadioButton,主要有圆角控制、默认背景(边框线)、按下背景(边框线)、不可点击背景(边框线)、选择selected背景(边框线)、选中checked背景(边框线);全圆角、四角单独设置圆角功能，使用方式参照layout_main.
 
-<font color=#00ffff size=24>说明1.1.0以后版本UIWidget维护，不再做版本更新</font>
+**说明1.1.0以后版本UIWidget维护，不再做版本更新**
 
 更全常见UI库参看 [UIWidget](https://github.com/AriesHoo/UIWidget)
 
